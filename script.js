@@ -57,12 +57,17 @@
         function habilities(jsonObj) {
         var myP1 = document.createElement('p');
         var myP2 = document.createElement('p');
+        var myP3 = document.createElement('p');
         myP1.setAttribute("id", "hab1");
         myP2.setAttribute("id", "hab2");
+        myP2.setAttribute("id", "desc");
         myP1.textContent = jsonObj['abilities'][0].ability.name;
         myP2.textContent = jsonObj['abilities'][1].ability.name
+        myP3.textContent = "habilidades:"
+        section.appendChild(myP3);
         section.appendChild(myP1);
         section.appendChild(myP2);
+        
         }
   
         function br(jsonObj) {
