@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100;1,200;1,400&family=Moo+Lah+Lah&display=swap');
 
-
+:root{
+    --cor1:#EF5350;
+    --cor2:#FECA1B;
+    --cor3:#26547C;
+    --cor4:#50B2C0;
+    --cor5:#86BBD8;
+}
 
 *{
     border: 0;
@@ -13,14 +19,14 @@
     
 }
 nav{
-    background-color:#EF5350 ;
+    background-color:var(--cor1) ;
     padding: 20px;
 }
 ul{
     columns: 2;
 }
 li{
-    color:#FECA1B ;
+    color:var(--cor2);
 }
 img{
     max-width: 200px;

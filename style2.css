@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100;1,200;1,400&family=Moo+Lah+Lah&display=swap');
+
+:root{
+    --cor1:#EF5350;
+    --cor2:#FECA1B;
+    --cor3:#26547C;
+    --cor4:#50B2C0;
+    --cor5:#86BBD8;
+}
+
+
+*{
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background-color:var(--cor1) ;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+ul{
+    columns: 2;
+}
+li{
+    color:var(--cor2);
+}
+
+section{
+    margin: 30px;
+    text-align: justify;
+
+}
+section > h1{
+    border-bottom: 3px solid var(--cor3);
+    font-family: Flexo-Medium, sans-serif;
+    font-size: 150%;
+    padding-bottom: 3px;
+    color: #212121;
+    font-size: 178%;
+    margin-top: 0.75em;
+    text-transform: none;
+    margin-bottom: 16px;
+
+}
+section > h2{
+    border-bottom: 3px solid var(--cor3);
+    font-family: Flexo-Medium, sans-serif;
+    font-size: 150%;
+    padding-bottom: 3px;
+    color: #212121;
+    font-size: 178%;
+    margin-top: 0.75em;
+    text-transform: none;
+    margin-bottom: 16px;
+}
+
+section > p{
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 100%;
+    line-height: 150%;
+    margin-bottom: 0.75em;
+    color: #919191;
+}
