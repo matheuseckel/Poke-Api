@@ -85,7 +85,7 @@
   
         }
   
-        for(i=1;i<5;i++){
+        for(i=1;i<9;i++){
           opa1(i)
           teste1(i)
           

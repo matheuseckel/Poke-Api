@@ -53,11 +53,12 @@ body{
 }
 
 #card > div{
+    width: 250px;
+    height: 420;
     backdrop-filter: blur(6px);
     background-color: #2fe00b13;
     margin: 10px;
-    border-width: medium;
-    border-style: solid;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
     
     
     
@@ -78,5 +79,7 @@ body{
 }*/
 
 footer{
-    text-align: center;
+    text-align: center ; 
+    height: 100px;
+    
 }
