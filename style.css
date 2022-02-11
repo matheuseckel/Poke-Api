@@ -22,6 +22,10 @@ nav{
     background-color:var(--cor1) ;
     padding: 20px;
 }
+a{
+    text-decoration: none;
+    color: var(--cor2);
+}
 ul{
     columns: 2;
 }

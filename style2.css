@@ -75,4 +75,11 @@ section > p{
     line-height: 150%;
     margin-bottom: 0.75em;
     color: #919191;
+    
+}
+
+footer{
+    text-align: center ; 
+    height: 100px;
+    
 }
